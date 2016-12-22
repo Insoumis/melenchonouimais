@@ -327,6 +327,10 @@ content: "";
 	padding: 10px 40px;
 }
 
+.created-by a{
+	text-decoration: none;
+}
+
 .contact {
 	padding-top:10px;
 	text-align:center;
@@ -422,11 +426,11 @@ a:hover {
 	}
 
 	#message {
-    position: inherit;
-    width: 100%;
-    margin: 0;
-    left: 0;
-    top: 0;
+		position: inherit;
+		width: 100%;
+		margin: 0;
+		left: 0;
+		top: 0;
 		background-color: #FEEFB3;
 		color: #9F6000;
 	}
