@@ -1,0 +1,467 @@
+/*
+Red: #c9462c;
+White: rgb(255, 255, 255);
+Blue: rgb(8, 126, 215);
+*/
+/*
+html {
+	background: url("../img/shattered.png") #e0e0e0 repeat center center fixed;
+	height: 100%;
+}
+*/
+html {
+	background: url("../img/jean-luc-melenchon.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	margin: 0 20%;
+}
+
+.shadow {
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#message {
+	width: 70%;
+	display: none;
+	position: absolute;
+	margin: 0 auto;
+	background-color: #c9462c;
+	left: 10px;
+	right: 10px;
+	top: 10px;
+	border-radius: 0px;
+	z-index: 4;
+}
+
+#message .small {
+	margin-top: 10px;
+	font-size: 0.6em;
+}
+
+#close-message {
+	font: 30px "Roboto", sans-serif;
+	color: white;
+	position: absolute;
+	top: 5px;
+	right: 7px;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+#message-text {
+	font: 24px "Roboto Slab", serif;
+	padding: 34px;
+	text-align: center;
+	color: white;
+}
+
+#message-custom-text {
+	margin-top: 10px;
+}
+
+#gray-screen {
+	display: none;
+	background-color: #666;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+}
+
+.header {
+	position: relative;
+	width: 100%;
+	background-color: #0098b6;
+	color: #FFFFFF;
+	font: 48px "Roboto Slab";
+	font-weight: 700;
+}
+
+.header-text {
+	display: block;
+	margin: auto;
+	text-align: center;
+	height: 44px;
+	max-width: 500px;
+	background: url("../img/logo.png") no-repeat center 20px;
+	background-size: 60px;
+	vertical-align: bottom;
+	padding-top: 96px;
+	font-size: 44px;
+	padding-bottom: 30px;
+	text-decoration: none;
+	-webkit-transition: color .2s ease-in;
+	-moz-transition: color .2s ease-in;
+	-o-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+}
+
+.header-text:hover {
+	color: #c9462c;
+}
+
+.main {
+	width: 100%;
+}
+
+.faq {
+	margin-top: 40px;
+}
+
+.faq .entry {
+	font: 18px "Roboto Slab";
+	margin: 40px 0px 80px;
+}
+
+.question-container {
+	max-width: 55%;
+}
+
+.question {
+	font-size:120%;
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	background-color: #c9462c;
+	color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	border-radius: 0px;
+}
+
+.question:after {
+	content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+    right: auto;
+    top: auto;
+    bottom: -15px;
+    border: 25px solid;
+    border-color: transparent transparent transparent #c9462c;
+}
+
+.answer-container {
+	float: right;
+	margin-top: 20px;
+	max-width: 55%;
+}
+
+.answer {
+	font-size:120%;
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	background-color: #0098b6;
+	color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	border-radius: 0px;
+}
+
+.answer:after {
+content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 0px;
+    bottom: -15px;
+    border: 12px solid;
+    border-color: #0098b6 #0098b6 transparent transparent;
+}
+
+.table-of-contents {
+	position: fixed;
+	font: 15px "Roboto Slab";
+	width: 15%;
+	padding: 10px 10px 10px 0px;
+	box-sizing: border-box;
+	color: #0098b6;
+	background-color: rgb(245, 245, 245);
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	z-index: 2;
+	transition: left 0.3s ease;
+	transform: translateY(-50%);
+  margin-top: 50vh;
+}
+
+.table-of-contents:hover {
+	left: 0 !important;
+}
+
+.questions {
+	margin-left: 10px;
+}
+
+.toc-entry {
+	margin: 5px 0;
+	padding: 5px;
+	border-left: 3px solid transparent;
+	cursor: pointer;
+}
+
+.toc-entry:hover {
+	background-color: rgba(255,255,255,0.9);
+	color: rgb(30, 30, 30);
+	font-weight: bold;
+	transition: 0.2s all ease;
+}
+
+.toc-entry.selected {
+	border-left: 3px solid #c9462c;
+	font-weight: bold;
+}
+
+#top, #convinced1, #convinced2 {
+	font: 24px "Roboto Slab";
+	font-weight: 500;
+	text-align: center;
+	background-color: #c9462c;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin: 0;
+	color: white;
+}
+
+#convinced1 a, #convinced2 a, #big-convinced1 a, #big-convinced2 a {
+	text-decoration: none;
+}
+
+.convinced-button {
+	display: block;
+	text-decoration: none;
+	font: 24px "Roboto Slab";
+	font-weight: 500;
+	text-align: center;
+	background-color: #c9462c;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin: 0;
+	color: white;
+}
+
+.more-button {
+	display: block;
+	text-decoration: none;
+	font: 24px "Roboto Slab";
+	font-weight: 500;
+	text-align: center;
+	background-color: #0098b6 !important;
+	margin-top: 10px !important;
+	border-left: inherit !important;
+}
+
+.convinced-button, .more-button {
+	cursor: pointer;
+}
+
+.share-controls {
+	width: 100%;
+	max-width: 200px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	text-align: center;
+	z-index: 2;
+}
+
+.share-controls i {
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	padding: 6px;
+	line-height: 48px;
+}
+
+.share-controls i::before {
+	display: block;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: #FFFFFF solid 2px;
+	line-height: 38px;
+}
+
+.share-controls i:hover {
+	background-color: #0098b6;
+	background-size: 50%, 25%, 25%;
+}
+
+.footer {
+	width: 100%;
+	height: 200px;
+	padding: 60px 50px 50px 50px;
+	background-color: #0098b6;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
+}
+
+.created-by {
+	text-align:center;
+	margin: 0 auto;
+	font: 24px "Roboto";
+	font-weight: 200;
+	width: 317px;
+	border: 1px solid white;
+	color: white;
+	padding: 10px 40px;
+}
+
+.contact {
+	padding-top:10px;
+	text-align:center;
+	width: 450px;
+	color: white;
+	margin: 0 auto;
+	font: 18px "Roboto";
+	font-weight: 200;
+}
+
+.little{
+	vertical-align: center;
+	font-size:70%;
+}
+
+.convinced-container {
+	max-width: 700px;
+	margin: auto;
+	display: flex;
+}
+
+#big-convinced1, #big-convinced2 {
+	font-family: "Roboto Slab";
+	font-size: 30px;
+	margin: 0 auto 50px;
+	width: 350px;
+	padding: 20px;
+	background-color: #c9462c;
+	color: rgb(255, 255, 255);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	border-radius: 0;
+	text-align: center;
+	display: inline-block;
+}
+
+#big-convinced1:hover, #big-convinced2:hover {
+	background-color: #b84028;
+}
+
+#big-convinced1:last-child, #big-convinced2:last-child{
+	background-color: #0098b6;
+	border-radius: 0;
+}
+
+#big-convinced1:last-child:hover, #big-convinced2:last-child:hover{
+	background-color: #0088a3;
+}
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.display-inline {
+	display: inline !important;
+}
+
+#bernrate {
+	display: none;
+}
+
+@media (max-width: 800px) {
+	.header-text {
+		margin: auto !important;
+	}
+
+	.header {
+		margin: auto;
+	}
+
+	.container {
+		margin: 5px;
+	}
+
+	.table-of-contents {
+		display: none;
+	}
+
+	.question-container, .answer-container {
+		max-width: 80%;
+	}
+
+	.share-controls {
+		display: none;
+	}
+
+	.created-by {
+		text-align: center;
+		width: 90%;
+		padding: 10px;
+	}
+
+	#message {
+    position: inherit;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+		background-color: #FEEFB3;
+		color: #9F6000;
+	}
+
+	#message-text {
+		padding: 12px;
+		font-size: 18px;
+		color: inherit;
+	}
+
+	#message-text a {
+		color: inherit;
+	}
+
+	#message .small {
+		font-size: 0.8em;
+	}
+
+	#close-message {
+		font-size: 60px;
+		margin-top: 10px;
+		margin-right: 10px;
+		color: inherit;
+	}
+
+	#gray-screen {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.convinced-container, #big-convinced1, #big-convinced2 {
+		display: block;
+  }
+	#big-convinced1, #big-convinced2 {
+		margin: 0 auto 20px;
+	}
+}

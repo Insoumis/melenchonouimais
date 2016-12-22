@@ -1,0 +1,146 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("bg.jpg") #333333;
+  background-size: cover;
+  position: absolute;
+}
+
+body::before {
+  content: '';
+  will-change: transform;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: fixed;
+  background-image: url("bg_mask.png");
+}
+
+.wrapper {
+  display: block;
+  margin: auto;
+  max-width: 800px;
+  padding: 20px;
+  vertical-align: middle;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+  text-align: center;
+  overflow-y: auto;
+  color: #FFFFFF;
+  background-color: #0098b6;
+}
+
+.mdl-card__actions.mdl-card--border  {
+  padding-bottom: initial;
+}
+
+.mdl-card__supporting-text h3 {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  margin: 16px 0 16px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/*
+.buttons > a {
+  display: inline-block;
+  height: 60px;
+  width: 160px;
+  margin: 10px;
+  background-color: #c9462c !important;
+  color: #FFFFFF !important;
+  text-align: left;
+  padding: 0 10px;
+}
+*/
+
+/*
+.buttons > a::before {
+    content: "10";
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 0;
+    display: inline-block;
+}
+*/
+
+.buttons a{
+	
+	display: inline-block;
+
+	background-color: #c9462c !important;
+	color: #FFFFFF !important;
+	text-align:center;
+	margin: 20px;
+	padding: 20px;
+}
+
+.lil {
+	margin-top:-13px;
+	margin-bottom:-15px;
+	font-size: 14px;
+	display:block;
+	text-align:center;
+}
+
+.lig {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+/*
+.big {
+  display: inline-block;
+  height: 60px;
+  width: 91px;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.footer > a {
+  color: rgba(255,255,255,.42);
+  text-decoration: none;
+}
+
+.footer {
+  color: rgba(255,255,255,.32);
+  text-align: center;
+}
+
+.copy-left{
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -khtml-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  display: inline-block;
+}
+*/
+
+
+@media screen and (max-height: 320px) {
+	.wrapper {
+		transform: initial;
+		margin-top: initial;
+		border-radius: initial;
+	}
+}
