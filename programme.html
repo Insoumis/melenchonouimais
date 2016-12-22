@@ -24,7 +24,7 @@
 	
 	<base target="_blank">
 	
-	<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:200,300,400,700,400italic|Montserrat:300'>
+	<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700%7CRoboto:200,300,400,700,400italic%7CMontserrat:300'>
 	<link rel="stylesheet" href="css/styles.css">
 
 	<script src="https://use.fontawesome.com/7538861dc3.js"></script>
@@ -42,6 +42,23 @@
 	  ga('send', 'pageview');
 
 	</script>
+	
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  // tracker methods like "setCustomDimension" should be called before "trackPageView"
+	  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+		var u="//piwik.waazaa.fr/";
+		_paq.push(['setTrackerUrl', u+'piwik.php']);
+		_paq.push(['setSiteId', '4']);
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<!-- End Piwik Code -->
 	
 </head>
 <body>
@@ -67,7 +84,7 @@
 	</div>
 	<div class="share-controls">
 		<a href="http://www.facebook.com/sharer/sharer.php?u=http://melenchonouimais.fr"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-		<a href="http://twitter.com/intent/tweet?status=J'aime bien Mélenchon, mais... +http://melenchonouimais.fr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+		<a href="http://twitter.com/intent/tweet?status=J'aime%20bien%20Mélenchon,%20mais...%20+http://melenchonouimais.fr"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 		<a href="https://plus.google.com/share?url=http://melenchonouimais.fr"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 	</div>
 </body>
