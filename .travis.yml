@@ -5,4 +5,4 @@ node_js:
   - 0.8
 
 script:
-  - nodejs js/faqCan.js && nodejs js/faqProg.js
+  - node js/faqCan.js && node js/faqProg.js
