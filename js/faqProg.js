@@ -39,7 +39,6 @@ var faq = [{
 	"Par ailleurs, la France Insoumise est la seule à avoir chiffré entièrement son programme à l'aide d'économistes, d'experts de haut-fonctionnaires qui ont dévoilé <a href=\"https://www.youtube.com/playlist?list=PLnAm9o_Xn_3AS6K-4pCPjsXDp3UqXERwd\">dans une émission de 5 heures</a> le détail des nouvelles dépenses et des nouvelles recettes<br /><br />"
 	"Les dépenses publiques supplémentaires s'élèveraient à <a href=\"https://cloud.githubusercontent.com/assets/5359646/23227659/efefb52c-f939-11e6-9272-f936f0efd658.png\">173 milliards d'euros</a> les portant de 55% à 59% du PIB et les recettes seraient augmentées de <a href=\"https://cloud.githubusercontent.com/assets/5359646/23227659/efefb52c-f939-11e6-9272-f936f0efd658.png\">190 milliards</a>. Par conséquent, le déficit diminuera.<br /><br />"
 	"En cinq ans, le poids de la dette devrait également diminuer, de 98% du PIB à 87%."
-}
 },{
     "id": "win-election",
     "question": "… peut-il vraiment gagner cette élection ?",
