@@ -33,6 +33,7 @@ var faq = [{
     "answer":
 	"Mélenchon a un revenu chaque mois <a href=\"http://www.jean-luc-melenchon.fr/tout-sur-moi-mes-mensurations-mon-patrimoine-mes-projets-immobiliers/\">en tant que député européen</a>. Il possède également des biens patrimoniaux tel qu’un appartement à Paris et une maison de campagne. Il dispose enfin d’une épargne dont la somme est d'environ 150 000€. <br /> <br />"+
 	"A 65 ans dont 30 ans de carrière politique Mélenchon aurait donc une bonne situation financière avec un patrimoine total évalué entre 700 000 et 800 000€ mais reste loin des candidats avec des patrimoines évalués à plusieurs millions d’euros. <br /> <br />"+
+	"Il a proposé un amendement pour diminuer de 25% ses indemnités de député Européen, qui a été rejeté. Il a renoncé à percevoir sa retraite pour le moment alors qu'il y aurait déjà droit.<br /> <br />"+
 	"Mélenchon est en tout cas prêt à vivre dans une société solidaire puisqu’il propose entre autres que le salaire maximum d’un citoyen français ne dépasse pas vingt fois le salaire le plus bas au sein d'une entreprise ou encore un impôt progressif pour tous sur le revenu."
 },{
 	"id": "soutient-syrie",
