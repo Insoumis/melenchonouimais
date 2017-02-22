@@ -1,0 +1,8 @@
+sudo: false
+language: node_js
+
+node_js:
+  - 0.8
+
+script:
+  - node js/faqCan.js && node js/faqProg.js
