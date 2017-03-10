@@ -4,7 +4,8 @@ var faq = [{
     "answer":
         "Certains considèrent Mélenchon comme “communiste”, “d’extrême gauche” ou encore “à la gauche de la gauche”. Or, pour l'élection présidentielle de 2017, il a fait le choix de ne pas s’aligner sur un parti politique ni de s’orienter sur une étiquette gauche/droite, mais de créer un mouvement : la France Insoumise. <br /> <br />" +
 		"La France Insoumise n’est pas un parti politique et n’en soutient pas. Ce qu’elle défend, c’est un travail en commun de 8 mois avec des citoyens, ayant débouché sur le programme <a href=\"https://www.youtube.com/watch?v=TyElIpXeioo\"> <i>L’Avenir en Commun</i> </a>. <br /> <br />"+
-		"C’est à chacun de se faire un avis sur celui-ci, en lisant ce qui y est proposé."
+		"C’est à chacun de se faire un avis sur celui-ci, en lisant ce qui y est proposé.<br /><br />" +
+		"Enfin, en ce qui concerne son rapport avec l'idéologie communiste, Mélenchon est <a href=\"https://www.youtube.com/watch?v=sqTTJIDf4pc&feature=youtu.be&t=1h14m24s\#>favorable à une économie mixte, mêlant sociétés capitalistes, entreprises publiques et sociétés coopératives</a>.<br /><br />"
 },{
 	"id": "difference",
     "question": "… en quoi est-il différent ?",
