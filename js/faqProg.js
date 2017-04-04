@@ -43,7 +43,7 @@ var faq = [{
     "id": "win-election",
     "question": "… peut-il vraiment gagner cette élection ?",
     "answer":
-        "Oui ! Avec près de 4 millions de votes en 2012 Mélenchon a su enrichir ses idées sur certains sujets et notamment sur la question écologique. Le mouvement La France Insoumise rassemble à ce jour près de 2000 groupes d’appui à la candidature de Jean-Luc Mélenchon.<br /> <br />" +
+        "Oui ! Avec près de 4 millions de votes en 2012 Mélenchon a su enrichir ses idées sur certains sujets et notamment sur la question écologique. Le mouvement La France Insoumise rassemble à ce jour plus de 3200 groupes d’appui à la candidature de Jean-Luc Mélenchon.<br /> <br />" +
         "De plus il s’adresse directement au peuple français au moyen de vidéos sur internet. Cette démarche a été particulièrement appréciée et <a href=\"https://www.youtube.com/user/PlaceauPeuple\">sa chaine Youtube</a> est aujourd’hui la première des politiciens français.<br /> <br />" +
         "Les sondages quant à eux, qu’ils soient favorables ou non, ne représentent pas une réalité politique comme l'ont montré les victoires de Donald Trump à la présidentielle américaine et de François Fillon à la primaire de la droite, le “vote utile” au premier tour est donc celui de votre conviction personnelle."
 },{
