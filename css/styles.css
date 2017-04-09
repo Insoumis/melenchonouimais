@@ -9,6 +9,7 @@ html {
 	height: 100%;
 }
 */
+
 html {
 	background: url("../img/jean-luc-melenchon.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -24,7 +25,7 @@ body {
 }
 
 .shadow {
-	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
 }
 
 .clearfix:after {
@@ -134,27 +135,27 @@ body {
 }
 
 .question {
-	font-size:120%;
+	font-size: 120%;
 	position: relative;
 	display: inline-block;
 	padding: 20px;
 	background-color: #c9462c;
 	color: rgb(255, 255, 255);
-	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
 	border-radius: 0px;
 }
 
 .question:after {
 	content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 0px;
-    right: auto;
-    top: auto;
-    bottom: -15px;
-    border: 25px solid;
-    border-color: transparent transparent transparent #c9462c;
+  	position: absolute;
+  	width: 0;
+  	height: 0;
+  	left: 0px;
+  	right: auto;
+  	top: auto;
+  	bottom: -15px;
+  	border: 25px solid;
+  	border-color: transparent transparent transparent #c9462c;
 }
 
 .answer-container {
@@ -164,26 +165,26 @@ body {
 }
 
 .answer {
-	font-size:120%;
+	font-size: 120%;
 	position: relative;
 	display: inline-block;
 	padding: 20px;
 	background-color: #0098b6;
 	color: rgb(255, 255, 255);
-	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
 	border-radius: 0px;
 }
 
 .answer:after {
-content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: auto;
-    right: 0px;
-    bottom: -15px;
-    border: 12px solid;
-    border-color: #0098b6 #0098b6 transparent transparent;
+	content: "";
+  	position: absolute;
+  	width: 0;
+  	height: 0;
+  	left: auto;
+  	right: 0px;
+  	bottom: -15px;
+  	border: 12px solid;
+  	border-color: #0098b6 #0098b6 transparent transparent;
 }
 
 .table-of-contents {
@@ -196,11 +197,11 @@ content: "";
 	background-color: rgb(245, 245, 245);
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
 	z-index: 2;
 	transition: left 0.3s ease;
 	transform: translateY(-50%);
-  margin-top: 50vh;
+	margin-top: 50vh;
 }
 
 .table-of-contents:hover {
@@ -219,7 +220,7 @@ content: "";
 }
 
 .toc-entry:hover {
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255, 255, 255, 0.9);
 	color: rgb(30, 30, 30);
 	font-weight: bold;
 	transition: 0.2s all ease;
@@ -230,7 +231,9 @@ content: "";
 	font-weight: bold;
 }
 
-#top, #convinced1, #convinced2 {
+#top,
+#convinced1,
+#convinced2 {
 	font: 24px "Roboto Slab";
 	font-weight: 500;
 	text-align: center;
@@ -241,7 +244,10 @@ content: "";
 	color: white;
 }
 
-#convinced1 a, #convinced2 a, #big-convinced1 a, #big-convinced2 a {
+#convinced1 a,
+#convinced2 a,
+#big-convinced1 a,
+#big-convinced2 a {
 	text-decoration: none;
 }
 
@@ -269,7 +275,8 @@ content: "";
 	border-left: inherit !important;
 }
 
-.convinced-button, .more-button {
+.convinced-button,
+.more-button {
 	cursor: pointer;
 }
 
@@ -310,14 +317,14 @@ content: "";
 	height: 200px;
 	padding: 60px 50px 50px 50px;
 	background-color: #0098b6;
-	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
 	box-sizing: border-box;
 	position: relative;
 	z-index: 1;
 }
 
 .created-by {
-	text-align:center;
+	text-align: center;
 	margin: 0 auto;
 	font: 24px "Roboto";
 	font-weight: 200;
@@ -327,13 +334,13 @@ content: "";
 	padding: 10px 40px;
 }
 
-.created-by a{
+.created-by a {
 	text-decoration: none;
 }
 
 .contact {
-	padding-top:10px;
-	text-align:center;
+	padding-top: 10px;
+	text-align: center;
 	width: 450px;
 	color: white;
 	margin: 0 auto;
@@ -341,9 +348,9 @@ content: "";
 	font-weight: 200;
 }
 
-.little{
+.little {
 	vertical-align: center;
-	font-size:70%;
+	font-size: 70%;
 }
 
 .convinced-container {
@@ -352,7 +359,8 @@ content: "";
 	display: flex;
 }
 
-#big-convinced1, #big-convinced2 {
+#big-convinced1,
+#big-convinced2 {
 	font-family: "Roboto Slab";
 	font-size: 30px;
 	margin: 0 auto 50px;
@@ -360,24 +368,28 @@ content: "";
 	padding: 20px;
 	background-color: #c9462c;
 	color: rgb(255, 255, 255);
-	box-shadow: 0 0 10px 0 rgba(0,0,0,.25);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
 	border-radius: 0;
 	text-align: center;
 	display: inline-block;
 }
 
-#big-convinced1:hover, #big-convinced2:hover {
+#big-convinced1:hover,
+#big-convinced2:hover {
 	background-color: #b84028;
 }
 
-#big-convinced1:last-child, #big-convinced2:last-child{
+#big-convinced1:last-child,
+#big-convinced2:last-child {
 	background-color: #0098b6;
 	border-radius: 0;
 }
 
-#big-convinced1:last-child:hover, #big-convinced2:last-child:hover{
+#big-convinced1:last-child:hover,
+#big-convinced2:last-child:hover {
 	background-color: #0088a3;
 }
+
 a {
 	color: white;
 }
@@ -398,33 +410,27 @@ a:hover {
 	.header-text {
 		margin: auto !important;
 	}
-
 	.header {
 		margin: auto;
 	}
-
 	.container {
 		margin: 5px;
 	}
-
 	.table-of-contents {
 		display: none;
 	}
-
-	.question-container, .answer-container {
+	.question-container,
+	.answer-container {
 		max-width: 80%;
 	}
-
 	.share-controls {
 		display: none;
 	}
-
 	.created-by {
 		text-align: center;
 		width: 90%;
 		padding: 10px;
 	}
-
 	#message {
 		position: inherit;
 		width: 100%;
@@ -434,38 +440,36 @@ a:hover {
 		background-color: #FEEFB3;
 		color: #9F6000;
 	}
-
 	#message-text {
 		padding: 12px;
 		font-size: 18px;
 		color: inherit;
 	}
-
 	#message-text a {
 		color: inherit;
 	}
-
 	#message .small {
 		font-size: 0.8em;
 	}
-
 	#close-message {
 		font-size: 60px;
 		margin-top: 10px;
 		margin-right: 10px;
 		color: inherit;
 	}
-
 	#gray-screen {
 		display: none !important;
 	}
 }
 
 @media screen and (max-width: 530px) {
-	.convinced-container, #big-convinced1, #big-convinced2 {
+	.convinced-container,
+	#big-convinced1,
+	#big-convinced2 {
 		display: block;
-  }
-	#big-convinced1, #big-convinced2 {
+	}
+	#big-convinced1,
+	#big-convinced2 {
 		margin: 0 auto 20px;
 	}
 }

@@ -35,7 +35,7 @@ var faq = [{
     "id":"chiffrage",
     "question":"... son programme ne va-t-il pas nous ruiner ?",
     "answer":
-        "Désormais, même le <a href=\"http://www.latribune.fr/economie/international/le-fmi-plaide-pour-une-relance-urgente-de-la-depense-publique-588379.html\">FMI</a> et l'<a href=\"http://www.lesechos.fr/monde/enjeux-internationaux/0211539056448-croissance-locde-pousse-a-une-relance-budgetaire-coordonnee-2046186.php\">OCDE</a> plaident pour une relance de la dépense publique. L'Avenir en Commun propose d'investir grandement dans la planification écologique et dans l'économie de la mer, ce qui aura pour l'effet de relancer tous les secteurs de l'économie.<br /><br />"+
+        "Désormais, même le <a href=\"http://www.latribune.fr/economie/international/le-fmi-plaide-pour-une-relance-urgente-de-la-depense-publique-588379.html\">FMI</a> et l'<a href=\"http://www.lesechos.fr/monde/enjeux-internationaux/0211539056448-croissance-locde-pousse-a-une-relance-budgetaire-coordonnee-2046186.php\">OCDE</a> plaident pour une relance de la dépense publique. L'Avenir en Commun propose d'investir grandement dans la planification écologique et dans l'économie de la mer, ce qui aura pour effet de relancer tous les secteurs de l'économie.<br /><br />"+
         "Par ailleurs, la France Insoumise est la seule à avoir chiffré entièrement son programme à l'aide d'économistes, d'experts de haut-fonctionnaires qui ont dévoilé <a href=\"https://www.youtube.com/playlist?list=PLnAm9o_Xn_3AS6K-4pCPjsXDp3UqXERwd\">dans une émission de 5 heures</a> le détail des nouvelles dépenses et des nouvelles recettes<br /><br />"+
         "Les dépenses publiques supplémentaires s'élèveraient à <a href=\"https://cloud.githubusercontent.com/assets/5359646/23227659/efefb52c-f939-11e6-9272-f936f0efd658.png\">173 milliards d'euros</a> les portant de 55% à 59% du PIB et les recettes seraient augmentées de <a href=\"https://cloud.githubusercontent.com/assets/5359646/23227659/efefb52c-f939-11e6-9272-f936f0efd658.png\">190 milliards</a>. Par conséquent, le déficit diminuera.<br /><br />"+
         "En cinq ans, le poids de la dette devrait également diminuer, de 98% du PIB à 87%."
@@ -43,15 +43,16 @@ var faq = [{
     "id": "win-election",
     "question": "… peut-il vraiment gagner cette élection ?",
     "answer":
-        "Oui ! Avec près de 4 millions de votes en 2012 Mélenchon a su enrichir ses idées sur certains sujets et notamment sur la question écologique. Le mouvement La France Insoumise rassemble à ce jour près de 2000 groupes d’appui à la candidature de Jean-Luc Mélenchon.<br /> <br />" +
+        "Oui ! Avec près de 4 millions de votes en 2012 Mélenchon a su enrichir ses idées sur certains sujets et notamment sur la question écologique. Le mouvement La France Insoumise rassemble à ce jour plus de 3200 groupes d’appui à la candidature de Jean-Luc Mélenchon.<br /> <br />" +
         "De plus il s’adresse directement au peuple français au moyen de vidéos sur internet. Cette démarche a été particulièrement appréciée et <a href=\"https://www.youtube.com/user/PlaceauPeuple\">sa chaine Youtube</a> est aujourd’hui la première des politiciens français.<br /> <br />" +
         "Les sondages quant à eux, qu’ils soient favorables ou non, ne représentent pas une réalité politique comme l'ont montré les victoires de Donald Trump à la présidentielle américaine et de François Fillon à la primaire de la droite, le “vote utile” au premier tour est donc celui de votre conviction personnelle."
 },{
     "id": "non-convaincu",
     "question": "Il y a des bons points, mais je ne suis toujours pas convaincu, comment en savoir plus sur le mouvement ?",
     "answer":
-        "Pour en savoir plus sur la France Insoumise ou les idées de Jean-Luc Mélenchon vous pouvez consulter <a href=\"https://avenirencommun.fr/\">le site de la campagne</a>.<br /> <br />" +
-        "Le livre programme <i>L’Avenir en Commun</i> est également disponible <a href=\"https://www.placedeslibraires.fr/livre/9782021317510-l-avenir-en-commun-le-programme-de-la-france-insoumise-et-son-candidat-jean-luc-melenchon-jean-luc-melenchon/\">en librairie</a> pour 3 euros.<br /> <br />" +
+		"Pour en savoir plus sur la France Insoumise ou les idées de Jean-Luc Mélenchon vous pouvez consulter <a href=\"https://avenirencommun.fr/\">le site de la campagne</a>.<br /> <br />" +
+        "Le livre programme <i>L’Avenir en Commun</i> est disponible en intégralité sur le site <a href=\"https://laec.fr/\">LAEC.fr</a>. <br /> <br />"+
+		"<i>L’Avenir en Commun</i> est également disponible <a href=\"https://www.placedeslibraires.fr/livre/9782021317510-l-avenir-en-commun-le-programme-de-la-france-insoumise-et-son-candidat-jean-luc-melenchon-jean-luc-melenchon/\">en librairie</a> pour 3 euros.<br /> <br />" +
         "Enfin vous pouvez aller voir ses vidéos sur <a href=\"https://www.youtube.com/user/PlaceauPeuple\">sa chaîne Youtube</a>."
 }
 ];
