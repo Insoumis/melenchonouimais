@@ -51,7 +51,7 @@ var faq = [{
     "question": "Il y a des bons points, mais je ne suis toujours pas convaincu, comment en savoir plus sur le mouvement ?",
     "answer":
 		"Pour en savoir plus sur la France Insoumise ou les idées de Jean-Luc Mélenchon vous pouvez consulter <a href=\"https://avenirencommun.fr/\">le site de la campagne</a>.<br /> <br />" +
-        "Le livre programme <i>L’Avenir en Commun</i> est disponible en intégralité sur le site <a href=\"https://laec.fr/\">LAEC.fr</a>. <br /> <br />"+
+        "Le livre programme <i>L’Avenir en Commun</i> est disponible en intégralité sur le site <a href=\"https://laec.fr\" title=\"Programme de Mélenchon\">LAEC.fr</a>. <br /> <br />"+
 		"<i>L’Avenir en Commun</i> est également disponible <a href=\"https://www.placedeslibraires.fr/livre/9782021317510-l-avenir-en-commun-le-programme-de-la-france-insoumise-et-son-candidat-jean-luc-melenchon-jean-luc-melenchon/\">en librairie</a> pour 3 euros.<br /> <br />" +
         "Enfin vous pouvez aller voir ses vidéos sur <a href=\"https://www.youtube.com/user/PlaceauPeuple\">sa chaîne Youtube</a>."
 }
